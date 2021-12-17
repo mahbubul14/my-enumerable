@@ -12,5 +12,6 @@ class MyList
       yield @list[i]
       i += 1
     end
+    @list
   end
 end
